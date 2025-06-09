@@ -99,7 +99,7 @@ const FreeTrial = () => {
               transition={{ delay: 0.5, duration: 0.6 }}
               className="text-xl md:text-2xl mb-12 max-w-2xl mx-auto leading-relaxed text-gray-600 dark:text-gray-300"
             >
-              Experience the full power of Landwind Platform for{" "}
+              Experience the full power of DBC Platform for{" "}
               <span className="font-semibold text-[#f35a57]">30 days</span>. No
               credit card required, no hidden fees.
             </motion.p>
@@ -192,7 +192,7 @@ const FreeTrial = () => {
               transition={{ delay: 1.1, duration: 0.6 }}
               className="mt-12 text-sm text-gray-500 dark:text-gray-400"
             >
-              <p>Join 50,000+ users who trust Landwind Platform</p>
+              <p>Join 50,000+ users who trust DBC Platform</p>
               <div className="flex justify-center items-center gap-2 mt-2">
                 {[...Array(5)].map((_, i) => (
                   <motion.span

@@ -275,14 +275,14 @@ const Footer = () => {
             transition={{ delay: 1.1, duration: 0.6 }}
             className="mt-8 pt-8 border-t border-opacity-20 text-center"
           >
-            <p className="text-sm flex items-center justify-center gap-2 text-gray-600 dark:text-gray-400">
+            <div className="text-sm flex items-center justify-center gap-2 text-gray-600 dark:text-gray-400">
               <span>© 2025 Made with</span>
-              <motion.div
+              <motion.span
                 animate={{ scale: [1, 1.2, 1] }}
                 transition={{ duration: 2, repeat: Infinity }}
               >
                 <Heart className="w-4 h-4 text-[#f35a57] fill-current" />
-              </motion.div>
+              </motion.span>
               <span>by</span>
               <motion.button
                 whileHover={{ scale: 1.05 }}
@@ -294,7 +294,7 @@ const Footer = () => {
                 Nassim MZILI
               </motion.button>
               <span>. All rights reserved.</span>
-            </p>
+            </div>
           </motion.div>
         </div>
       </motion.footer>

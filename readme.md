@@ -1,7 +1,5 @@
 # Modern Digital Business Card
 
-# Modern Digital Business Card
-
 ## Project Overview
 
 This project provides a comprehensive solution for a modern digital business card, offering both a responsive frontend and a robust backend infrastructure. It aims to deliver a seamless experience for creating, managing, and sharing digital business cards.

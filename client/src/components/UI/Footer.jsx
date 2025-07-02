@@ -12,6 +12,8 @@ import {
   Sparkles,
 } from "lucide-react";
 
+const appLogo = "/logo/dbc white.png";
+
 const Footer = () => {
   const ref = useRef(null);
   const inView = useInView(ref);
@@ -120,7 +122,13 @@ const Footer = () => {
               >
                 <div className="relative">
                   <div className="w-12 h-12 bg-gradient-to-br from-[#f35a57] to-[#f35a57]/80 rounded-2xl flex items-center justify-center">
-                    <Sparkles className="w-6 h-6 text-white" />
+                    {/* <Sparkles className="w-6 h-6 text-white" /> */}
+                    <motion.img
+                      src={appLogo}
+                      alt="Logo"
+                      className="w-10 h-10 rounded-xl shadow-lg"
+                      whileHover={{ rotate: 5 }}
+                    />
                   </div>
                   <motion.div
                     animate={{ rotate: 360 }}
